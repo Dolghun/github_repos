@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.githubclient.ui.data.DownloadedRepo
 import com.example.githubclient.ui.data.models.GitHubRepo
-import com.example.githubclient.ui.domain.GitHubRepository
+import com.example.githubclient.data.GitHubRepository
 import kotlinx.coroutines.launch
 
 class GitHubViewModel(

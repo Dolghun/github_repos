@@ -1,3 +1,5 @@
+package com.example.githubclient.api
+
 import com.example.githubclient.ui.data.models.GitHubRepo
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

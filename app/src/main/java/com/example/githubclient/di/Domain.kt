@@ -1,12 +1,12 @@
 package com.example.githubclient.di
 
-import GitHubApi
+import com.example.githubclient.api.GitHubApi
 import androidx.room.Room
 import com.example.githubclient.BASE_URL
 import com.example.githubclient.DATABASE_NAME
 import com.example.githubclient.ui.data.AppDatabase
-import com.example.githubclient.ui.domain.GitHubRepository
-import com.example.githubclient.ui.domain.GitHubRepositoryImpl
+import com.example.githubclient.data.GitHubRepository
+import com.example.githubclient.data.GitHubRepositoryImpl
 import com.example.githubclient.ui.presentation.GitHubViewModel
 import org.koin.android.ext.koin.androidApplication
 import org.koin.core.module.dsl.createdAtStart

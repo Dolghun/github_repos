@@ -1,4 +1,4 @@
-package com.example.githubclient.ui.domain
+package com.example.githubclient.data
 
 import com.example.githubclient.ui.data.DownloadedRepo
 import com.example.githubclient.ui.data.models.GitHubRepo
